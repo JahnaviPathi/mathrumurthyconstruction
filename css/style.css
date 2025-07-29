@@ -278,7 +278,7 @@ section {
 
 .home .slide .content h3 {
   font-size: 6rem;
-  color: var(--black);
+  color: var(--yellow);
   text-transform: capitalize;
   text-transform: uppercase;
 }
