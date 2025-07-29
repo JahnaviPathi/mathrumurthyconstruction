@@ -1,22 +1,20 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const counters = document.querySelectorAll(".counter");
+document.addEventListener('DOMContentLoaded', () => {
+  const experienceEl = document.getElementById('experience-counter');
+  if (!experienceEl) return; // safety check
 
-  counters.forEach(counter => {
-    const target = +counter.getAttribute("data-target");
-    let count = 0;
-    const increment = Math.ceil(target / 100); // smooth steps
-    const delay = 20; // ms between updates
+  let current = 0;
+  const target = 14;
+  const duration = 2000; // total animation time in ms
+  const steps = 70;
+  const increment = target / steps;
+  const intervalTime = duration / steps;
 
-    const updateCounter = () => {
-      count += increment;
-      if (count >= target) {
-        counter.innerText = target;
-      } else {
-        counter.innerText = count;
-        setTimeout(updateCounter, delay);
-      }
-    };
-
-    updateCounter();
-  });
+  const animateExperience = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      current = target;
+      clearInterval(animateExperience);
+    }
+    experienceEl.textContent = Math.floor(current);
+  }, intervalTime);
 });
