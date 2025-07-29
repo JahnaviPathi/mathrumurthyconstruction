@@ -1,7 +1,7 @@
 // js/counter.js
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter");
-  const speed = 200;
+  const speed = 100;
 
   counters.forEach(counter => {
     const updateCount = () => {
