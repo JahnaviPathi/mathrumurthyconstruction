@@ -52,18 +52,28 @@ section {
   border-left: 1rem solid var(--yellow);
 }
 
-.content-wrapper {
+.hero-flex {
   display: flex;
   align-items: center;
-  gap: 30px;
-  padding: 40px;
+  gap: 4rem;
+  padding-left: 5rem;
+  z-index: 1;
+  position: relative;
 }
 
 .left-image {
-  width: 250px;
+  width: 220px;
   height: auto;
-  border-radius: 8px;
+  border-radius: 10px;
+  filter: none;
+  opacity: 1;
+  image-rendering: auto;
 }
+
+.slide .content {
+  width: auto; /* override 50rem width */
+}
+
 
 
 .btn {
