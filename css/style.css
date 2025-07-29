@@ -52,6 +52,20 @@ section {
   border-left: 1rem solid var(--yellow);
 }
 
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.left-image {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
