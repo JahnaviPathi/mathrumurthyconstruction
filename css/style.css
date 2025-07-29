@@ -753,6 +753,13 @@ section {
   text-align: center;
 }
 
+.logo-container h1 {
+  text-align: left;
+  padding-left: 2rem; /* or whatever spacing matches your other headings */
+  color: #ff3e3e; /* optional: if you want to keep it red like others */
+}
+
+
 .logo-container img {
   height: 10rem;
   pointer-events: none;
