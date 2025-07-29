@@ -19,13 +19,18 @@ window.onscroll = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
-   loop:true,
-   grabCursor:true,
+   loop: true,
+   grabCursor: true,
+   autoplay: {
+      delay: 3000, // 3 seconds
+      disableOnInteraction: false
+   },
    navigation: {
      nextEl: ".swiper-button-next",
      prevEl: ".swiper-button-prev",
    },
 });
+
 
 var swiper = new Swiper(".reviews-slider", {
    loop:true,
