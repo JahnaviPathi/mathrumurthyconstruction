@@ -50,21 +50,20 @@ var swiper = new Swiper(".reviews-slider", {
 });
 
 var swiper = new Swiper(".blogs-slider", {
-   loop:true,
-   grabCursor:true,
+   loop: true,
+   grabCursor: true,
    spaceBetween: 20,
+   autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+   },
    breakpoints: {
-      640: {
-        slidesPerView: 1,
-      },
-      768: {
-        slidesPerView: 2,
-      },
-      991: {
-        slidesPerView: 3,
-      },
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      991: { slidesPerView: 3 },
    },
 });
+
 
 var swiper = new Swiper(".logo-slider", {
    loop:true,
