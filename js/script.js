@@ -65,26 +65,41 @@ var swiper = new Swiper(".blogs-slider", {
 });
 
 
-var swiper = new Swiper(".logo-slider", {
-   loop: true,
-   grabCursor: true,
-   spaceBetween: 20,
-   autoplay: {
-      delay: 1000, // 1 seconds
-      disableOnInteraction: false
-   },
-   breakpoints: {
-      450: {
-         slidesPerView: 2,
-      },
-      640: {
-         slidesPerView: 3,
-      },
-      768: {
-         slidesPerView: 4,
-      },
-      1000: {
-         slidesPerView: 5,
-      },
-   },
-});
+// var swiper = new Swiper(".logo-slider", {
+//    loop: true,
+//    grabCursor: true,
+//    spaceBetween: 20,
+//    autoplay: {
+//       delay: 1000, // 1 seconds
+//       disableOnInteraction: false
+//    },
+//    breakpoints: {
+//       450: {
+//          slidesPerView: 2,
+//       },
+//       640: {
+//          slidesPerView: 3,
+//       },
+//       768: {
+//          slidesPerView: 4,
+//       },
+//       1000: {
+//          slidesPerView: 5,
+//       },
+//    },
+// });
+
+// Horizontal auto-scroll for logo-slider
+const logoSlider = document.querySelector('.logo-slider .swiper-wrapper');
+
+if (logoSlider) {
+   let scrollSpeed = 1; // Change to 2 or 3 if you want it faster
+
+   setInterval(() => {
+      logoSlider.scrollLeft += scrollSpeed;
+      if (logoSlider.scrollLeft + logoSlider.clientWidth >= logoSlider.scrollWidth) {
+         logoSlider.scrollLeft = 0;
+      }
+   }, 20);
+}
+
