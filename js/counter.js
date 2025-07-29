@@ -1,22 +1,22 @@
-// js/counter.js
 document.addEventListener("DOMContentLoaded", () => {
   const counters = document.querySelectorAll(".counter");
-  const speed = 100;
 
   counters.forEach(counter => {
-    const updateCount = () => {
-      const target = +counter.getAttribute("data-target");
-      const count = +counter.innerText;
-      const increment = target / speed;
+    const target = +counter.getAttribute("data-target");
+    let count = 0;
+    const increment = Math.ceil(target / 100); // smooth steps
+    const delay = 20; // ms between updates
 
-      if (count < target) {
-        counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCount, 20);
-      } else {
+    const updateCounter = () => {
+      count += increment;
+      if (count >= target) {
         counter.innerText = target;
+      } else {
+        counter.innerText = count;
+        setTimeout(updateCounter, delay);
       }
     };
 
-    updateCount();
+    updateCounter();
   });
 });
