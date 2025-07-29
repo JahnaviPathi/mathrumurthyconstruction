@@ -510,58 +510,77 @@ section {
   line-height: 7.5rem;
 }
 
-.reviews .slide p {
-  padding: 1.5rem;
-  background: var(--light-bg);
-  position: relative;
-  margin-bottom: 3rem;
-  font-size: 1.4rem;
-  color: var(--light-color);
-  line-height: 2;
+.reviews {
+  padding: 4rem 2rem;
+  background-color: #fff;
 }
 
-.reviews .slide p::before {
+.reviews > h1 {
+  font-size: 2.5rem;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+.reviews > p {
+  font-size: 1.4rem;
+  color: #555;
+  margin-bottom: 3rem;
+  line-height: 1.8;
+  max-width: 900px;
+}
+
+.reviews > p::before {
   content: '';
   position: absolute;
   bottom: -1rem;
   left: 2rem;
   height: 2rem;
   width: 2rem;
-  background: var(--light-bg);
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  background: #f3f3f3;
+  transform: rotate(45deg);
 }
 
-.reviews .slide .user {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.reviews .user {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 1.5rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
 
-.reviews .slide .user img {
-  height: 7rem;
-  width: 7rem;
+.reviews .user img {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border: 2px solid #ddd;
 }
 
-.reviews .slide .user h3 {
-  font-size: 2rem;
-  color: var(--black);
-  text-transform: capitalize;
+.reviews .user .info {
+  flex: 1;
+  min-width: 250px;
 }
 
-.reviews .slide .user .stars {
+.reviews .user h3 {
+  font-size: 2.2rem;
+  color: #222;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.reviews .user .stars {
   padding-top: .5rem;
 }
 
-.reviews .slide .user .stars i {
+.reviews .user .stars i {
   font-size: 1.4rem;
   color: var(--yellow);
 }
-
 .pricing {
   background: var(--light-bg);
 }
@@ -827,6 +846,14 @@ section {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 2rem;
+  }
+  .reviews .user {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reviews .user .info {
+    width: 100%;
   }
 }
 
