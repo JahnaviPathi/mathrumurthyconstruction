@@ -302,14 +302,14 @@ section {
 }
 
 .hero-section .container h1 {
-  font-size: 48px;    /* Bigger heading */
+  font-size: 30px;    /* Bigger heading */
   font-weight: 700;
   color: --yellow;     /* Optional: a visible color like gold */
   margin-bottom: 10px;
 }
 
 .hero-section .container p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.6;
   color: white;
   max-width: 700px;
