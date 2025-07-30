@@ -286,12 +286,12 @@ section {
 }
 
 .hero-section .container h1 {
-  font-size: 40px; /* or any size you prefer */
-  color: #FFD700;  /* e.g., gold color */
+  font-size: 20px; /* or any size you prefer */
+  color: yellow;  /* e.g., gold color */
 }
 
 .hero-section .container p {
-  font-size: 20px;
+  font-size: 10px;
   color: #f0f0f0;
 }
 
