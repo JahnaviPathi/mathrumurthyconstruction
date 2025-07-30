@@ -283,17 +283,18 @@ section {
 .hero-section .container {
   position: relative;
   z-index: 1;
-}
-
-.hero-section .container h1 {
+  .hero-section .container h1 {
   font-size: 20px; /* or any size you prefer */
-  color: yellow;  /* e.g., gold color */
+  color: #ff3b3b;  /* e.g., gold color */
 }
 
 .hero-section .container p {
   font-size: 10px;
   color: #f0f0f0;
 }
+}
+
+
 
 
 
