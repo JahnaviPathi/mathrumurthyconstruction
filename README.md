@@ -1,10 +1,10 @@
-﻿# Construction-Website
+﻿# MathrumurthyConstruction-Website
 
 A modern, responsive construction website leveraging HTML, CSS, Bootstrap, and SCSS for streamlined design and optimal performance.
 
 ## Project Overview
 
-This project is built using HTML, CSS, SCSS, and Bootstrap to ensure a responsive and visually appealing design. The website has been deployed and is accessible at [Construction Website Netlify](https://construction-website-project.netlify.app/) and [Construction Website GitHub Pages](https://rajkamalbanjare96.github.io/construction-website/).
+This project is built using HTML, CSS, SCSS, and Bootstrap to ensure a responsive and visually appealing design. The website has been deployed and is accessible at [Construction Website Netlify](https://construction-website-project.netlify.app/) , [Construction Website GitHub Pages](https://github.com/JahnaviPathi/mathrumurthyconstruction). and [Construction Website](https://mathrumurthyconstructions.in/)
 
 ## Features
 
@@ -17,21 +17,18 @@ This project is built using HTML, CSS, SCSS, and Bootstrap to ensure a responsiv
 
 ## Website Structure
 
-- **Homepage:** Introduction to a Construction company, highlighting its expertise and portfolio.
-- **Residential Projects:** Detailed descriptions and visuals of residential projects.
-- **Commercial Projects:** Showcases of successful commercial ventures.
-- **Services:** Comprehensive list of services offered.
-- **Gallery:** Captivating photographs showcasing the quality and scope of ABC Construction's work.
-- **Testimonials:** Reviews and experiences shared by satisfied clients.
-- **Contact Us:** Clear contact information for website visitors.
+
+**Home:** Overview of Mathrumurthy Constructions, highlighting the company's expertise, values, and commitment to quality and safety.
+**About:** Company history, leadership, and key statistics such as years of experience, projects completed, satisfied clients, and workforce size.
+**Services:** Comprehensive range of offerings including civil & mechanical construction, residential renovation, architectural design, material supply, construction consulting, interior designing, manpower supply, and building restoration.
+**Projects:** Showcasing various completed projects like institutional buildings, corporate office renovations, commercial complexes, industrial warehouses, apartment complexes, and heritage restorations.
+**Blogs:** Insightful articles about the company’s workshops, real estate consultancy, manpower solutions, and construction services.
+**Contact:** Contact form and detailed contact information enabling visitors to get in touch easily.
+
 
 ## Website Design
 
-
 <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/dbb9ab98-3933-4953-8008-356776e182e8" />
-
-
-
 <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/4b054581-1cbd-4699-b9a2-0c69754ab0e0" />
 <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/79428ca0-afa3-4693-84eb-4d28ab0e2625" />
 <img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/5f9ac684-bec6-4a4c-9cec-879a36826b20" />
