@@ -28,13 +28,18 @@ This project is built using HTML, CSS, SCSS, and Bootstrap to ensure a responsiv
 ## Website Design
 
 
-![Screenshot 2024-06-24 185852](https://github.com/rajkamalbanjare96/construction-website/assets/105432776/1140a3e8-f130-4bb9-90ee-e23bd8056def)
-
-![Screenshot 2024-06-24 185907](https://github.com/rajkamalbanjare96/construction-website/assets/105432776/6afa8bb9-f476-4f29-95a0-6eec855cab61)
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/dbb9ab98-3933-4953-8008-356776e182e8" />
 
 
 
-![Screenshot 2024-06-24 185933](https://github.com/rajkamalbanjare96/construction-website/assets/105432776/96bb15ad-979e-4882-99fd-57e8042ff60a)
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/4b054581-1cbd-4699-b9a2-0c69754ab0e0" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/79428ca0-afa3-4693-84eb-4d28ab0e2625" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/5f9ac684-bec6-4a4c-9cec-879a36826b20" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/1564083c-fc02-4f50-91a3-0b1689f9423c" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/6e0b4625-3f8c-401e-964b-abc7e5d74bf6" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/64f5cbb0-0374-4e2f-90c6-f9daf75721d8" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/3bab0ab8-3c2f-4bc3-9fc2-86156c01c2ea" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/b0c5dde0-2819-458e-8ee5-c6b9c8fa594b" />
 
 
 ## Contribution
