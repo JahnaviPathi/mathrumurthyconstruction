@@ -42,8 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const experienceEl = document.getElementById('experience-counter2');
-  if (!experienceEl) return; // safety check
+  const clientEl = document.getElementById('experience-counter2');
+  if (!clientEl) return; // safety check
 
   let current = 0;
   const target = 34;
@@ -52,15 +52,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const increment = target / steps;
   const intervalTime = duration / steps;
 
-  const animateExperience = setInterval(() => {
+  const animateClients = setInterval(() => {
     current += increment;
     if (current >= target) {
       current = target;
-      clearInterval(animateExperience);
+      clearInterval(animateClients);
     }
-    experienceEl.textContent = Math.floor(current);
+    clientEl.textContent = Math.floor(current);
   }, intervalTime);
 });
+
 
 // js/counter.js
 document.addEventListener("DOMContentLoaded", () => {
