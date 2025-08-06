@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!experienceEl) return; // safety check
 
   let current = 0;
-  const target = 17;
+  const target = 23;
   const duration = 2000; // total animation time in ms
   const steps = 70;
   const increment = target / steps;
